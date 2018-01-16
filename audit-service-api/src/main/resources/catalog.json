@@ -37,7 +37,7 @@
     "displayName" : "Login",
     "description" : "User Login",
     "aliases" : null,
-    "attributes" : null
+    "attributes" : [{"name" : "userId", "required" : false}, {"name" : "accountNumber", "required" : false}]
   }, {
     "name" : "transfer",
     "displayName" : "Transfer",
