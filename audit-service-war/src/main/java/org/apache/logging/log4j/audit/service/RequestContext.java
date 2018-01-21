@@ -14,7 +14,7 @@
  * See the license for the specific language governing permissions and
  * limitations under the license.
  */
-package org.apache.logging.audit;
+package org.apache.logging.log4j.audit.service;
 
 import java.util.UUID;
 import java.util.function.Supplier;
