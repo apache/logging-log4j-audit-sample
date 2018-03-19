@@ -38,6 +38,7 @@
     <log4j-audit.version>1.0.0-SNAPSHOT</log4j-audit.version>
     <slf4j.version>1.6.2</slf4j.version>
     <spring.version>4.3.3.RELEASE</spring.version>
+    <spring.boot.version>1.5.10.RELEASE</spring.boot.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -75,6 +76,11 @@
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-jcl</artifactId>
+        <version>${log4j.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-slf4j-impl</artifactId>
         <version>${log4j.version}</version>
       </dependency>
       <dependency>
@@ -171,6 +177,21 @@
         <groupId>org.springframework</groupId>
         <artifactId>spring-aspects</artifactId>
         <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.modelmapper</groupId>
+        <artifactId>modelmapper</artifactId>
+        <version>0.7.5</version>
+      </dependency>
+      <dependency>
+        <groupId>org.modelmapper.extensions</groupId>
+        <artifactId>modelmapper-spring</artifactId>
+        <version>0.7.5</version>
+      </dependency>
+      <dependency>
+        <groupId>org.modelmapper.extensions</groupId>
+        <artifactId>modelmapper-jackson</artifactId>
+        <version>0.7.5</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -407,6 +428,7 @@
   <modules>
     <module>audit-service-war</module>
     <module>audit-service-api</module>
+    <module>audit-service</module>
     <module>sample-app</module>
   </modules>
 </project>
