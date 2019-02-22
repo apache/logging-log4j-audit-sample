@@ -409,22 +409,6 @@
       </build>
     </profile>
   </profiles>
-  <distributionManagement>
-    <repository>
-      <id>release</id>
-      <name>nextiva-releases</name>
-      <url>http://repository.nextiva.xyz:8081/nexus/content/repositories/releases</url>
-    </repository>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <name>nextiva-snapshots</name>
-      <url>http://repository.nextiva.xyz:8081/nexus/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <site>
-      <id>site</id>
-      <url>file://${WORKSPACE}/sites/auditservice/</url>
-    </site>
-  </distributionManagement>
   <modules>
     <module>audit-service-war</module>
     <module>audit-service-api</module>
