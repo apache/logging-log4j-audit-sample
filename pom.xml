@@ -37,7 +37,7 @@
     <log4j.version>2.10.0</log4j.version>
     <log4j-audit.version>1.0.0</log4j-audit.version>
     <slf4j.version>1.6.2</slf4j.version>
-    <spring.version>4.3.3.RELEASE</spring.version>
+    <spring.version>5.3.18</spring.version>
     <spring.boot.version>1.5.10.RELEASE</spring.boot.version>
   </properties>
   <dependencyManagement>
