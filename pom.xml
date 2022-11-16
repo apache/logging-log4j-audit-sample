@@ -33,7 +33,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
     <classmate.version>1.2.0</classmate.version>
-    <jackson.version>2.8.5</jackson.version>
+    <jackson.version>2.12.7.1</jackson.version>
     <log4j.version>2.10.0</log4j.version>
     <log4j-audit.version>1.0.0</log4j-audit.version>
     <slf4j.version>1.6.2</slf4j.version>
