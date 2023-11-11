@@ -29,6 +29,9 @@ updates:
       # Spring 6.x is Jakarta EE 9
       - dependency-name: "org.springframework:*"
         versions: "[6, )"
+      # Keep using SLF4J 1.7
+      - dependency-name: "org.slf4j:*"
+        versions: "[2, )"
 
   - package-ecosystem: github-actions
     directory: "/"
