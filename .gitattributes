@@ -13,25 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-.project
-.idea
-**/*.iml
-/.metadata/
-/.mvn/wrapper/maven-wrapper.jar
-.flattened-pom.xml
-.project
-.settings
-.surefire-*
-**/target
-target/
-.settings
-.classpath
-.cache-main
-.cache-tests
-.toDelete
-.factorypath
-.surefire-*
-velocity.log
-felix-cache/
-/.metadata/
-.DS_Store
+# All text files with LF line endings
+* text=auto eol=lf
+# Maven Wrapper cmd script
+/mvnw.cmd eol=crlf
+# Maven Wrapper need LF line endings
+/.mvn/wrapper/maven-wrapper.properties eol=lf
