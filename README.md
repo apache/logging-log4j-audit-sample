@@ -16,3 +16,7 @@ The interfaces can be used by Java applications to perform audit logging.
 
 The Audit Service is a web application that allows applications (especially those not written in Java) to perform
 audit logging while still having ensuring that the audit events conform to the definitions in the catalog.
+
+## License
+
+Apache Log4j Audit is distributed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
