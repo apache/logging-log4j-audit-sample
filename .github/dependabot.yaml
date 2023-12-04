@@ -14,14 +14,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
 version: 2
+
+# Add Maven Central explicitly to work around:
+#   https://github.com/dependabot/dependabot-core/issues/8329
+registries:
+  maven-central:
+    type: maven-repository
+    url: https://repo.maven.apache.org/maven2
+
 updates:
   - package-ecosystem: maven
     directory: "/"
     schedule:
       interval: daily
     open-pull-requests-limit: 10
+    registries:
+      - maven-central
     ignore:
       # Version 3.x uses Jakarta EE 9 and Java 17
       - dependency-name: "org.springframework.boot:*"
