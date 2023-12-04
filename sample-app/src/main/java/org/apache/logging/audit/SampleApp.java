@@ -18,7 +18,6 @@ package org.apache.logging.audit;
 
 import java.math.BigDecimal;
 import java.net.InetAddress;
-
 import org.apache.logging.log4j.audit.LogEventFactory;
 import org.apache.logging.log4j.audit.event.Deposit;
 import org.apache.logging.log4j.audit.event.Login;

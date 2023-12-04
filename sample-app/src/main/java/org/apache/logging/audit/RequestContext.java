@@ -18,7 +18,6 @@ package org.apache.logging.audit;
 
 import java.util.UUID;
 import java.util.function.Supplier;
-
 import org.apache.logging.log4j.ThreadContext;
 import org.apache.logging.log4j.audit.annotation.Chained;
 import org.apache.logging.log4j.audit.annotation.ClientServer;
@@ -35,16 +34,22 @@ import org.apache.logging.log4j.core.util.UuidUtil;
 public final class RequestContext {
     @ClientServer
     public static final String REQUEST_ID = "requestId";
+
     @ClientServer
     public static final String SESSION_ID = "sessionId";
+
     @ClientServer
     public static final String ACCOUNT_NUMBER = "accountNumber";
+
     @ClientServer
     public static final String IP_ADDRESS = "ipAddress";
+
     @ClientServer
     public static final String USER_ID = "userId";
+
     @ClientServer
     public static final String LOGIN_ID = "loginId";
+
     @Local
     public static final String CALLING_HOST = "callingHost";
 

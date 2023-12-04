@@ -18,7 +18,6 @@ package org.apache.logging.log4j.audit.service.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
-
 import org.apache.logging.log4j.audit.rest.RequestContextFilter;
 import org.apache.logging.log4j.audit.service.RequestContext;
 import org.springframework.web.WebApplicationInitializer;
