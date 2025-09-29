@@ -58,7 +58,7 @@
     <bnd.baseline.skip>true</bnd.baseline.skip>
 
     <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
-    <classmate.version>1.7.0</classmate.version>
+    <classmate.version>1.7.1</classmate.version>
     <jackson.version>2.20.0</jackson.version>
     <log4j.version>2.25.1</log4j.version>
     <log4j-audit.version>1.0.1</log4j-audit.version>
